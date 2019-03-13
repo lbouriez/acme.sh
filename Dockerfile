@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM multiarch/alpine:armhf-edge
 
 RUN apk update -f \
   && apk --no-cache add -f \
